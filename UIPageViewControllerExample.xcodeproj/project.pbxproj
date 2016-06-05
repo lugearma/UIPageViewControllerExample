@@ -13,6 +13,7 @@
 		923FE0C81D00B1F400D31321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923FE0C61D00B1F400D31321 /* Main.storyboard */; };
 		923FE0CA1D00B1F400D31321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923FE0C91D00B1F400D31321 /* Assets.xcassets */; };
 		923FE0CD1D00B1F400D31321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923FE0CB1D00B1F400D31321 /* LaunchScreen.storyboard */; };
+		923FE0E51D010BE300D31321 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 923FE0E41D010BE300D31321 /* PageContentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		923FE0C91D00B1F400D31321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		923FE0CC1D00B1F400D31321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		923FE0CE1D00B1F400D31321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923FE0E31D010BE300D31321 /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		923FE0E41D010BE300D31321 /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		923FE0BC1D00B1F400D31321 /* UIPageViewControllerExample */ = {
 			isa = PBXGroup;
 			children = (
+				923FE0E31D010BE300D31321 /* PageContentViewController.h */,
+				923FE0E41D010BE300D31321 /* PageContentViewController.m */,
 				923FE0C01D00B1F400D31321 /* AppDelegate.h */,
 				923FE0C11D00B1F400D31321 /* AppDelegate.m */,
 				923FE0C31D00B1F400D31321 /* ViewController.h */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				923FE0C51D00B1F400D31321 /* ViewController.m in Sources */,
+				923FE0E51D010BE300D31321 /* PageContentViewController.m in Sources */,
 				923FE0C21D00B1F400D31321 /* AppDelegate.m in Sources */,
 				923FE0BF1D00B1F400D31321 /* main.m in Sources */,
 			);
