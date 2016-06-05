@@ -14,5 +14,4 @@
 @property NSUInteger pageIndex;
 @property NSString *titleText;
 
-
 @end
